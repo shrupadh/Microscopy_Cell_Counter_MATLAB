@@ -23,7 +23,7 @@ Images are attached.
 
 Authors
 Author_1:  Validation and Optimization, UI Development
-Author_2:Shradha Upadhyay - Pre-processing, Segmentation Process, Cell Counting
+Author_2:- Pre-processing, Segmentation Process, Cell Counting
 
 
 Acknowledgments
