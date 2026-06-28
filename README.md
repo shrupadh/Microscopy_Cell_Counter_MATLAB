@@ -1,18 +1,19 @@
-
+````markdown
 # Medical Image Analysis for Automatic Bacterial Cell Counting
 
 ## 📌 Project Overview
 
-This project presents an automated image analysis workflow for detecting and counting bacterial cells in fluorescence microscopy images using MATLAB. The application applies image processing techniques to improve image quality, segment bacterial cells, and perform automated cell counting, reducing manual effort while improving accuracy and reproducibility.
+This project demonstrates an automated approach for detecting and counting bacterial cells in fluorescence microscopy images using MATLAB. The application combines image preprocessing, segmentation, and automated cell counting techniques to improve efficiency and accuracy in quantitative microbiology.
 
 ---
 
 ## 🎯 Objectives
 
 - Automate bacterial cell counting from fluorescence microscopy images.
-- Improve counting accuracy using image preprocessing and segmentation techniques.
-- Demonstrate the application of medical image analysis in quantitative microbiology.
-- Develop an interactive MATLAB graphical user interface (GUI) for automated cell counting.
+- Improve image quality using preprocessing techniques.
+- Segment bacterial cells from the background.
+- Reduce manual counting through image analysis.
+- Develop an interactive MATLAB application.
 
 ---
 
@@ -23,10 +24,10 @@ This project presents an automated image analysis workflow for detecting and cou
 - Noise reduction
 - Contrast enhancement
 - Image thresholding
-- Morphological image processing
-- Bacterial cell segmentation
+- Morphological operations
+- Cell segmentation
 - Automated bacterial cell counting
-- Interactive MATLAB GUI
+- MATLAB graphical user interface (GUI)
 
 ---
 
@@ -72,26 +73,26 @@ Fluorescence Microscopy Image
 
 ## 🔄 Project Workflow
 
-### Step 1: Load Image
+### Step 1 – Load Image
 Import a fluorescence microscopy image into the MATLAB application.
 
-### Step 2: Image Preprocessing
+### Step 2 – Image Preprocessing
 Improve image quality by:
-- Applying median filtering to reduce noise
+- Applying median filtering
 - Enhancing image contrast
 - Converting the image to grayscale
 
-### Step 3: Cell Segmentation
-Separate bacterial cells from the background using thresholding and morphological image processing techniques.
+### Step 3 – Cell Segmentation
+Separate bacterial cells from the background using thresholding and morphological operations.
 
-### Step 4: Cell Detection
-Detect individual bacterial cells from the segmented image.
+### Step 4 – Cell Detection
+Identify individual bacterial cells from the segmented image.
 
-### Step 5: Automated Cell Counting
-Automatically count the detected bacterial cells, eliminating the need for manual counting.
+### Step 5 – Automated Cell Counting
+Automatically count the detected bacterial cells, reducing the need for manual counting.
 
-### Step 6: Results Visualization
-Display the processed image with detected bacterial cells and the total cell count through the graphical user interface.
+### Step 6 – Results Visualization
+Display the processed image with detected bacterial cells and the total cell count using the graphical user interface.
 
 ---
 
@@ -110,30 +111,13 @@ Display the processed image with detected bacterial cells and the total cell cou
 ## 💡 Skills Demonstrated
 
 - Medical Image Analysis
-- Image Processing
 - MATLAB Programming
-- Computer Vision
+- Image Processing
 - Image Segmentation
-- Algorithm Development
+- Computer Vision
 - GUI Development
+- Algorithm Development
 - Quantitative Image Analysis
-
----
-
-## 📁 Project Structure
-
-```text
-medical-image-analysis-cell-counter/
-│
-├── README.md
-├── src/
-│   └── cellCounterApp.m
-├── data/
-│   └── Original_Image1.png
-├── results/
-│   └── Processed_Image1.png
-└── docs/
-```
 
 ---
 
@@ -141,13 +125,13 @@ medical-image-analysis-cell-counter/
 
 ### Original Fluorescence Microscopy Image
 
-<img src="data/Original_Image1.png" width="500">
+![Original Image](Original_Image1.png)
 
 ### Processed Image
 
-<img src="results/Processed_Image1.png" width="500">
+![Processed Image](Processed%20Images1.png)
 
-The application successfully detects and segments bacterial cells from fluorescence microscopy images, enabling efficient, accurate, and reproducible automated cell counting.
+The application successfully detects and segments bacterial cells from fluorescence microscopy images, enabling efficient and reproducible automated cell counting.
 
 ---
 
@@ -168,3 +152,5 @@ Developed as part of **MATH 6346 – Medical Image Analysis** at **The Universit
 
 **Shradha Upadhyay**
 ````
+
+
