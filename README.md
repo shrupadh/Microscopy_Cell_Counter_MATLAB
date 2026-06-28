@@ -1,4 +1,4 @@
-````markdown
+
 # Medical Image Analysis for Automatic Bacterial Cell Counting
 
 ## 📌 Project Overview
