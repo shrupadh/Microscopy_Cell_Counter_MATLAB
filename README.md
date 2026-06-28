@@ -129,7 +129,8 @@ Display the processed image with detected bacterial cells and the total cell cou
 
 ### Processed Image
 
-![Processed Image](Processed%20Images1.png)
+![Processed Image](Processed_Image1.png)
+
 
 The application successfully detects and segments bacterial cells from fluorescence microscopy images, enabling efficient and reproducible automated cell counting.
 
